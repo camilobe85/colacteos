@@ -18,6 +18,7 @@
     <link href="{{ asset('/assets/css/slider.css') }}" rel="stylesheet">
     <link href="{{ asset('/assets/css/lateral.css') }}" rel="stylesheet">
     <link href="{{ asset('/assets/css/cards.css') }}" rel="stylesheet">
+    <link href="{{ asset('/assets/css/docs.css') }}" rel="stylesheet">
 
     <style>
         body {
@@ -93,7 +94,7 @@
     @yield('content')
 
     <!-- Footer -->
-    <footer>
+    <footer class="bs-docs-footer">
     <div class="container">
         <div class="row">
         <div class="col-md-4 col-sm-6 footerleft ">
