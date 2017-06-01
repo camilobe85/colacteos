@@ -38,6 +38,35 @@
                             </div>
                         </div>
 
+                        <div class="form-group{{ $errors->has('celular') ? ' has-error' : '' }}">
+                            <label for="celular" class="col-md-4 control-label">Celular</label>
+
+                            <div class="col-md-6">
+                                <input id="celular" type="text" class="form-control" name="celular" value="{{ old('celular') }}">
+
+                                @if ($errors->has('celular'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('celular') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+
+                        <div class="form-group{{ $errors->has('ciudad') ? ' has-error' : '' }}">
+                            <label for="ciudad" class="col-md-4 control-label">Ciudad</label>
+
+                            <div class="col-md-6">
+                                <input id="ciudad" type="text" class="form-control" name="ciudad" value="{{ old('ciudad') }}">
+
+                                @if ($errors->has('ciudad'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('ciudad') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+
+
                         <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
                             <label for="password" class="col-md-4 control-label">Contraseña</label>
 
