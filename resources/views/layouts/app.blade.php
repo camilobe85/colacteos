@@ -19,7 +19,7 @@
     <link href="{{ asset('/assets/css/lateral.css') }}" rel="stylesheet">
     <link href="{{ asset('/assets/css/cards.css') }}" rel="stylesheet">
     <link href="{{ asset('/assets/css/docs.css') }}" rel="stylesheet">
-
+    @yield('css')
     <style>
         body {
             font-family: 'Lato';
@@ -45,7 +45,9 @@
 
                 <!-- Branding Image -->
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    Economía Solidaria
+                    <table><tr><td><img src="assets/images/logoES.svg" style = "width:25px" alt="" /></td><td style="padding-left:20px;color:white;text-shadow: 2px 2px #000000;"><b>Economía Solidaria</b></td></tr></table>
+                    
+                    
                 </a>
             </div>
 
@@ -98,7 +100,7 @@
     <div class="container">
         <div class="row">
         <div class="col-md-4 col-sm-6 footerleft ">
-            <div class="logofooter"> <img src="assets/images/logos_footer.png" alt="" /> </div>
+            <div class="logofooter"> <img src="assets/images/logosFooter.svg" alt="" /> </div>
             <p>Curso desarrollado en alianza.</p>
             <p><i class="fa fa-map-pin"></i>Calle 18 No. 47 – 150 Torobajo Pasto - Nariño - Colombia</p>
             <p><i class="fa fa-phone"></i> Teléfono (Pasto) : +57 (2) 7336706 Ext. 2181-2191 </p>
@@ -151,8 +153,10 @@
     </div>
     </div>
     <!-- JavaScripts -->
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js" integrity="sha384-I6F5OKECLVtK/BL+8iSLDEHowSAfUo76ZL9+kGAgTRdiByINKJaqTPH/QVNS1VDb" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     {{-- <script src="{{ elixir('js/app.js') }}"></script> --}}
+    @yield('scripts')
 </body>
 </html>
