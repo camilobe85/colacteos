@@ -100,7 +100,7 @@
     <div class="container">
         <div class="row">
         <div class="col-md-4 col-sm-6 footerleft ">
-            <div class="logofooter"> <img src="assets/images/logosFooter.svg" alt="" /> </div>
+            <div class="logofooter"> <img class="logopie" src="assets/images/logosFooter.svg" alt="" /> </div>
             <p>Curso desarrollado en alianza.</p>
             <p><i class="fa fa-map-pin"></i>Calle 18 No. 47 – 150 Torobajo Pasto - Nariño - Colombia</p>
             <p><i class="fa fa-phone"></i> Teléfono (Pasto) : +57 (2) 7336706 Ext. 2181-2191 </p>
@@ -147,7 +147,6 @@
             <li><a href="#">Sobre nosotros</a></li>
             <li><a href="#">Faq's</a></li>
             <li><a href="#">Contactanos</a></li>
-            <li><a href="#">Site Map</a></li>
         </ul>
         </div>
     </div>

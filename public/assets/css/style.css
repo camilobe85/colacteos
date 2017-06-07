@@ -35,6 +35,11 @@
         font-weight: 700;
     }
     
+    .logopie {
+        -webkit-filter: drop-shadow(1px 1px 0px #FFFFFF);
+        filter: drop-shadow(1px 1px 0px #FFFFFF);
+    }
+    
     .footerleft p {
         color: #fff;
         font-size: 12px !important;
