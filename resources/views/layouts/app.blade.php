@@ -19,6 +19,7 @@
     <link href="{{ asset('/assets/css/lateral.css') }}" rel="stylesheet">
     <link href="{{ asset('/assets/css/cards.css') }}" rel="stylesheet">
     <link href="{{ asset('/assets/css/docs.css') }}" rel="stylesheet">
+    <link href="{{ asset('/assets/css/tablefilter.css') }}" rel="stylesheet">
     @yield('css')
     <style>
         body {
