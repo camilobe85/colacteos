@@ -132,6 +132,127 @@
             <h3>CLASES DE COOPERATIVAS SEGÚN LA ACTIVIDAD ECONÓMICA</h3>
             <p><strong><span lang="es-ES">Producci&oacute;n:</span></strong><span lang="es-ES"> E</span><span lang="es-ES">stas organizaciones de producci&oacute;n son de gran importancia para el desarrollo socioecon&oacute;mico del pa&iacute;s, pues transforman los insumos en producto (por ejemplo: un cultivo de papa, la limpian, la embolsan y la venden) este proceso es de gran creatividad y trabajo lo cual permite obtener un mayor valor agregado para el crecimiento de la sociedad.</span></p>
             <p><strong><span lang="es-ES">Consumo:</span></strong><span lang="es-ES"> En las organizaciones de consumo, la vinculaci&oacute;n debela ser abierta a todas las personas que puedan hacer uso de sus servicios y que acepten las responsabilidades inherentes a la asociaci&oacute;n. (por ejemplo: compra de maracuy&aacute;s en las veredas y luego la venta de estos en el pueblo).</span></p>
+            <h3>ORGANIGRAMA DE UNA COOPERATIVA</h3>
+            <img src="assets/images/mapCoop.png" width="100%" alt="" style="padding:40px;">
+            <p>Para su buen funcionamiento, una cooperativa cuenta con una estructura correctamente organizada que permite la participación democrática de todos los asociados, la correcta formulación de políticas y planes, su respectiva ejecución, control y vigilancia. Para ello, cuenta con:  Órganos de dirección y órganos de control.</p>
+            <p><strong>&Oacute;rganos de direcci&oacute;n: </strong>Se encargan del direccionamiento de la organizaci&oacute;n y la realizaci&oacute;n de las actividades provenientes del objeto social. Para ello, cuenta con:</p>
+            <ul>
+            <li>Asamblea general</li>
+            <li>Consejo de administraci&oacute;n</li>
+            <li>Gerencia</li>
+            </ul>
+            <ol style="list-style-type: lower-alpha;">
+            <li><strong>Asamblea general:</strong> Es el &oacute;rgano m&aacute;ximo de la administraci&oacute;n de las cooperativas, encargada de estudiar, analizar y dise&ntilde;ar el plan de desarrollo y la proyecci&oacute;n de la organizaci&oacute;n. Est&aacute; conformada por los asociados h&aacute;biles o delegados asignados por ellos mismos. Aqu&iacute; se toman decisiones, expresan opiniones, cr&iacute;ticas constructivas, se proponen planes y proyectos. Es el escenario democr&aacute;tico y aut&oacute;nomo.</li>
+            <p align="justify"><strong>&iquest;Cu&aacute;les son los tipos de asambleas? </strong></p>
+                <ol style="list-style-type: decimal">
+                    <li><strong>Asamblea de Constituci&oacute;n:</strong> Es la primera junta de la cooperativa, en la cual se constituye la organizaci&oacute;n solidaria.</li>
+                    <li><strong>Asamblea Ordinaria:</strong> Son las reuniones que se desarrollan en fechas especificadas en planeaci&oacute;n y sirven para el cumplimiento de las actividades y tareas programadas por la cooperativa.</li>
+                    <li><strong>Asamblea Extraordinaria:</strong> Son reuniones que se realizan en cualquier &eacute;poca del a&ntilde;o para tratar asuntos no planeados o de urgencia.</li>
+                    <li><strong>Asamblea de Delegados:</strong> Son las reuniones que las constituyen asociados h&aacute;biles que reemplazan a los h&aacute;biles, cuando estos no puedan asistir o apoyar los procesos de la asamblea general.</li>
+                </ol>
+            <li><strong>Consejo de Administraci&oacute;n:</strong> Es quien administra la cooperativa permanentemente. Trabaja de la mano con la Asamblea General. Est&aacute; conformado por asociados h&aacute;biles que son elegidos democr&aacute;ticamente. Permite ejecutar los planes y proyectos establecidos desde la asamblea general, asegurando que la cooperativa cumpla su objeto social.</li>
+            <li><strong>Gerencia:</strong> Es el ejecutor de las decisiones de la Asamblea General y de las disposiciones del Consejo de Administraci&oacute;n, por el cual es nombrado. </li>
+            </ol>
+            <p><strong>&Oacute;rganos de control:</strong> Junta de Vigilancia, Revisor Fiscal.</p>
+            <ol style="list-style-type: lower-alpha;">
+            <li><strong>Junta de Vigilancia: </strong>Es el &oacute;rgano de control social que vigila a la organizaci&oacute;n por medio de procesos de investigaci&oacute;n y valoraci&oacute;n objetivos acordes a la normatividad cooperativa. Est&aacute; conformada por m&aacute;ximo tres (3) asociados h&aacute;biles con sus respectivos suplentes, por un periodo y condiciones establecidas a trav&eacute;s de los estatutos de la cooperativa. Se encarga de velar que los &oacute;rganos de administraci&oacute;n funcionen seg&uacute;n los estatutos de la cooperativa, cumpliendo los principios y valores de la Econom&iacute;a Solidaria.</li>
+            <li><strong>Revisor Fiscal: </strong>Es el responsable del control contable y financiero de la organizaci&oacute;n. Cuenta con su respectivo suplente. El revisor fiscal y suplente, deber&aacute;n ser contadores p&uacute;blicos con matricula vigente.</li>
+            </ol>
+            <h2 class="subtUnidad">3.2. PRECOOPERATIVAS</h2>
+            <p>Características de las Cooperativas</p>
+            <table class="table table-striped" cellspacing="0" cellpadding="7">
+<tbody>
+<tr valign="top">
+<td style="background: #5b9bd5;" bgcolor="#5b9bd5" width="198" height="23">
+<p lang="es-ES" align="justify"><span style="color: #ffffff;"><span><span style="font-size: medium;"><strong>TIPO DE ORGANIZACI&Oacute;N</strong></span></span></span></p>
+</td>
+<td style="background: #5b9bd5;" bgcolor="#5b9bd5" width="376">
+<p lang="es-ES" align="justify"><span style="color: #ffffff;"><span><span style="font-size: medium;"><strong>PRECOOPERATIVAS</strong></span></span></span></p>
+</td>
+</tr>
+<tr valign="top">
+<td style="background: #deeaf6;" bgcolor="#deeaf6" width="198" height="120">
+<p lang="es-ES" align="justify"><span><span style="font-size: medium;"><strong>DEFINICI&Oacute;N</strong></span></span></p>
+</td>
+<td style="background: #deeaf6;" bgcolor="#deeaf6" width="376">
+<p lang="es-ES"><span><span style="font-size: medium;">Grupos que se organizan para realizar actividades permitidas a las cooperativas y que por carecer de capacidad econ&oacute;mica, educativa, administrativa o t&eacute;cnica, no est&aacute;n en posibilidad inmediata de organizarse como cooperativa, ante lo cual cuentan con el apoyo de una entidad promotora, que realiza actividad de promoci&oacute;n y asistencia t&eacute;cnica administrativa o financiera.</span></span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="198" height="76">
+<p lang="es-ES" align="justify"><span><span style="font-size: medium;"><strong>ASOCIADOS</strong></span></span></p>
+</td>
+<td width="376">
+<p lang="es-ES"><span><span style="font-size: medium;">Personas naturales menores de edad que hayan cumplido 14 a&ntilde;os, o que sin haberlos cumplido se asocien por medio de representante legal, personas jur&iacute;dicas de desarrollo p&uacute;blico, personas jur&iacute;dicas del sector cooperativo, personas jur&iacute;dicas de derecho privado sin &aacute;nimo de lucro.</span></span></p>
+</td>
+</tr>
+<tr valign="top">
+<td style="background: #deeaf6;" bgcolor="#deeaf6" width="198" height="24">
+<p align="justify"><span><span style="font-size: medium;"><span lang="es-ES"><strong>No. M&Iacute;NIMO DE ASOCIADOS</strong></span></span></span></p>
+</td>
+<td style="background: #deeaf6;" bgcolor="#deeaf6" width="376">
+<p lang="es-ES"><span><span style="font-size: medium;">5</span></span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="198" height="31">
+<p lang="es-ES" align="justify"><span><span style="font-size: medium;"><strong>DIRECCI&Oacute;N</strong></span></span></p>
+</td>
+<td width="376">
+<p lang="es-ES"><span><span style="font-size: medium;">Junta de asociados, comit&eacute; de administraci&oacute;n (para entidades con m&aacute;s de diez asociados).</span></span></p>
+</td>
+</tr>
+<tr valign="top">
+<td style="background: #deeaf6;" bgcolor="#deeaf6" width="198" height="76">
+<p lang="es-ES" align="justify"><span><span style="font-size: medium;"><strong>CONTROL</strong></span></span></p>
+</td>
+<td style="background: #deeaf6;" bgcolor="#deeaf6" width="376">
+<p lang="es-ES"><span><span style="font-size: medium;">Junta de vigilancia, revisor fiscal.</span></span></p>
+<p lang="es-ES"><span><span style="font-size: medium;">Los &oacute;rganos de control podr&aacute;n exonerar revisor fiscal cuando las circunstancias economizas o de ubicaci&oacute;n geogr&aacute;fica o el n&uacute;mero de asociados lo justifiquen</span></span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="198" height="24">
+<p lang="es-ES" align="justify"><span><span style="font-size: medium;"><strong>REPRESENTANTE LEGAL</strong></span></span></p>
+</td>
+<td width="376">
+<p lang="es-ES"><span><span style="font-size: medium;">Director ejecutivo</span></span></p>
+</td>
+</tr>
+<tr valign="top">
+<td style="background: #deeaf6;" bgcolor="#deeaf6" width="198" height="24">
+<p lang="es-ES" align="justify"><span><span style="font-size: medium;"><strong>ACTIVIDADES</strong></span></span></p>
+</td>
+<td style="background: #deeaf6;" bgcolor="#deeaf6" width="376">
+<p lang="es-ES"><span><span style="font-size: medium;">Todas las actividades de las cooperativas, excepto de ahorro y cr&eacute;dito.</span></span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="198" height="24">
+<p lang="es-ES" align="justify"><span><span style="font-size: medium;"><strong>CAPACITACI&Oacute;N</strong></span></span></p>
+</td>
+<td width="376">
+<p lang="es-ES"><span><span style="font-size: medium;">20 horas</span></span></p>
+</td>
+</tr>
+<tr valign="top">
+<td style="background: #deeaf6;" bgcolor="#deeaf6" width="198" height="24">
+<p align="justify"><span><span style="font-size: medium;"><span lang="es-ES"><strong>MARCO JUR&Iacute;DICO</strong></span></span></span></p>
+</td>
+<td style="background: #deeaf6;" bgcolor="#deeaf6" width="376">
+<p lang="es-ES"><span><span style="font-size: medium;">Ley 79 de 1988, ley 454 de 1998 y decreto 1333 de 1989.</span></span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="198" height="23">
+<p lang="es-ES" align="justify"><span><span style="font-size: medium;"><strong>VIGILANCIA</strong></span></span></p>
+</td>
+<td width="376">
+<p lang="es-ES"><span><span style="font-size: medium;">Supersolidaria.</span></span></p>
+</td>
+</tr>
+</tbody>
+</table>
             <!-------------------------------------- -->
             
             </div>
