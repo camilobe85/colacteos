@@ -24,7 +24,7 @@ Contenido de administrador
 										
 										<tr data-status="pagado">
 										<td width="10" style="width:10px !important;">
-											<a href="javascript:;" class="star" data-toggle="modal" data-target=".bs-edit-modal-sm">
+											<a href="#" onclick={{ 'javascript:addPerfil('.$user->id.',\''. $user->name . '\');' }} class="star" data-toggle="modal" data-target=".bs-edit-modal-sm">
 												<i class="glyphicon glyphicon-pencil"></i>
 											</a>
 										</td>
@@ -83,45 +83,38 @@ Contenido de administrador
 <div class="modal fade bs-edit-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
   <div class="modal-dialog modal-sm" role="document">
     <div class="modal-content">
+	<form method="POST" action="{{ url('/register') }}">
+	{{ csrf_field() }}
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title">Modificar perfil</h4>
       </div>
       <div class="modal-body">
-	  	<form>
+	  	
 			<div class="form-group">
-				<label for="cmbPerfil">Elija el tipo de perfil</label>
+				<label for="cmbPerfil">Para el <span id="usuarioSel"></span></label>
 				<select id="cmbPerfil" class="form-control">
 					@foreach ($usertype as $usert)
 						<option value={{ $usert->id }}>{{ $usert->tipo }}</option>
 					@endforeach
 				</select>
 			</div>
-		</form>
-
-		<!--{!! Form::open(array('action' => 'AdminController@store')) !!}
-
-			<div class="form-group">
-			{!! Form::label('cmbPerfil', 'Elija el tipo de perfil') !!}
-			{{ Form::select('cmbPerfil', ['Under 18', '19 to 30', 'Over 30']) }}
-			</div>
-
-			<button class="btn btn-success" type="submit">Grabar</button>
-
-		{!! Form::close() !!}-->
+		
+		<hidden id = "idTmpUser" name="idTmpUser" value=""/>
         
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
         <button type="button" class="btn btn-primary">Grabar cambios</button>
       </div>
+	  </form>
     </div><!-- /.modal-content -->
   </div>
 </div>      
 @endsection
 @section('scripts')
     {{-- <script src="{{ elixir('js/app.js') }}"></script> --}}
-    <script >
+    <script>
 $(document).ready(function() {
 
     $('.star').on('click', function() {
@@ -143,5 +136,11 @@ $(document).ready(function() {
     });
 
 });
+
+function addPerfil(id, name){
+	$('#idTmpUser').value = id;
+	$('#usuarioSel').append(name);
+
+}
     </script>
 @endsection
