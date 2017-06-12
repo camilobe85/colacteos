@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use DB;
+use View;
 
 class AdminController extends Controller
 {
@@ -17,6 +18,7 @@ class AdminController extends Controller
     {
         //
         $users = DB::table('users')->get();
+        $usertype = DB::table('usertype')->get();
         //$array = $users->toArray();
         /*foreach ($users as $user)
         {
@@ -25,8 +27,10 @@ class AdminController extends Controller
 
         //return view('/admin/admin', $users);
         
-
-        return view('/admin/admin', compact('users'));
+        return View::make('/admin/admin')
+            ->with(compact('users'))
+            ->with(compact('usertype'));
+        //return view('/admin/admin', compact('users'));
     }
 
     /**

@@ -15,8 +15,11 @@ class ProfileTable extends Migration
         //
         Schema::create('profile', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('user_id');
-            $table->integer('type_id');
+            $table->integer('user_id')->unsigned();
+            $table->integer('type_id')->unsigned();
+        });
+
+        Schema::table('profile', function($table) {
             $table->foreign('user_id')->references('id')->on('users');
             $table->foreign('type_id')->references('id')->on('usertype');
         });

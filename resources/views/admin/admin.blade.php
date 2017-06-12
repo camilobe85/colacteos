@@ -2,6 +2,7 @@
 
 @section('content')
 Contenido de administrador
+
 <div class="container">
 	<div class="row">
 		<section class="content">
@@ -22,7 +23,12 @@ Contenido de administrador
 									@foreach ($users as $user)
 										
 										<tr data-status="pagado">
-										<td>
+										<td width="10" style="width:10px !important;">
+											<a href="javascript:;" class="star" data-toggle="modal" data-target=".bs-edit-modal-sm">
+												<i class="glyphicon glyphicon-pencil"></i>
+											</a>
+										</td>
+										<!--<td>
 											<div class="ckbox">
 												<input type="checkbox" id="checkbox1">
 												<label for="checkbox1"></label>
@@ -32,7 +38,7 @@ Contenido de administrador
 											<a href="javascript:;" class="star">
 												<i class="glyphicon glyphicon-star"></i>
 											</a>
-										</td>
+										</td>-->
 										<td>
 											<div class="media">
 												<a href="#" class="pull-left">
@@ -52,8 +58,8 @@ Contenido de administrador
 													</h4>
 													<p class="summary">
 													<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> {{ $user->email }} <br> 
-													<span class="glyphicon glyphicon-phone" aria-hidden="true"> {{ $user->celular }} | 
-													<span class="glyphicon glyphicon-globe" aria-hidden="true"> {{ $user->ciudad }}</p>
+													<span class="glyphicon glyphicon-phone" aria-hidden="true"></span> {{ $user->celular }} | 
+													<span class="glyphicon glyphicon-globe" aria-hidden="true"></span> {{ $user->ciudad }}</p>
 												</div>
 											</div>
 										</td>
@@ -71,7 +77,47 @@ Contenido de administrador
 	</div>
  </div>
     
-      
+<!-- modal control -->
+
+
+<div class="modal fade bs-edit-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Modificar perfil</h4>
+      </div>
+      <div class="modal-body">
+	  	<form>
+			<div class="form-group">
+				<label for="cmbPerfil">Elija el tipo de perfil</label>
+				<select id="cmbPerfil" class="form-control">
+					@foreach ($usertype as $usert)
+						<option value={{ $usert->id }}>{{ $usert->tipo }}</option>
+					@endforeach
+				</select>
+			</div>
+		</form>
+
+		<!--{!! Form::open(array('action' => 'AdminController@store')) !!}
+
+			<div class="form-group">
+			{!! Form::label('cmbPerfil', 'Elija el tipo de perfil') !!}
+			{{ Form::select('cmbPerfil', ['Under 18', '19 to 30', 'Over 30']) }}
+			</div>
+
+			<button class="btn btn-success" type="submit">Grabar</button>
+
+		{!! Form::close() !!}-->
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Grabar cambios</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div>
+</div>      
 @endsection
 @section('scripts')
     {{-- <script src="{{ elixir('js/app.js') }}"></script> --}}
