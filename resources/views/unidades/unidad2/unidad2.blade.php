@@ -9,6 +9,7 @@
          <div class="bs-docs-section">
             <h1 class="page-header" id="overview">PRINCIPIOS Y VALORES DE LA ECONOMÍA SOLIDARIA</h1>
             <!--2.1.-->
+            <section id="2.1."></section>
             <h2 class="subtUnidad">2.1. ¿Qué se entiende por economía solidaria?</h2>
             <p align="justify"><span><span >La econom&iacute;a solidaria es una forma diferente de hacer econom&iacute;a, cuya caracter&iacute;stica primordial es satisfacer las necesidades del ser humano. &Eacute;sta se conforma por un conjunto de fuerzas sociales organizadas en formas asociativas, identificadas por pr&aacute;cticas democr&aacute;ticas, autogestionarias, humanistas y sin &aacute;nimo de lucro; esto quiere decir de acuerdo a la legislaci&oacute;n Colombiana del Sector Solidario. Ley 454 de 1994: </span></span></p>
             
@@ -50,6 +51,7 @@
             </div>
 
             <!--2.2. -->
+            <section id="2.2."></section>
             <h3 class="subtUnidad">2.2. Principios de la economía solidaria </h3>
             <ul>
             <li><span >El ser humano, su trabajo y los mecanismos de cooperaci&oacute;n tienen primac&iacute;a sobre los medios de producci&oacute;n. </span></li>
@@ -66,6 +68,7 @@
             </ul>
 
             <!--2.3.-->
+            <section id="2.3."></section>
             <h3 class="subtUnidad">2.3. Fines de la Economía Solidaria </h3>
             <p><span><span >La ley colombiana establece los fines que debe perseguir la econom&iacute;a solidaria, los cuales est&aacute;n establecidos en la Ley 454 de 1998 en su art&iacute;culo 5: </span></span></p>
             <ul>
@@ -77,6 +80,7 @@
             </ul>
 
              <!--2.4.-->
+            <section id="2.4."></section>
             <h3 class="subtUnidad">2.4. Valores de la Economía Solidaria </h3>
             <ol>
             <li><span><span ><strong>&nbsp;&nbsp;&nbsp;&nbsp;Autoayuda o esfuerzo propio:</strong></span></span><span><span >&nbsp;El asociado no puede ser el sujeto pasivo de la acci&oacute;n ben&eacute;fica de otros, sino el participe activo para el mejoramiento de su propio destino.</span></span></li>
@@ -90,9 +94,11 @@
             </ol>
 
             <!--2.5.-->
+            <section id="2.5."></section>
             <h3 class="subtUnidad">2.5. La marca cooperativa “coop”  </h3>
             <p><span >La identidad cooperativa es la marca con la que a nivel mundial se identifican todas las cooperativas y que hace la diferencia con las empresas tradicionales. Fruto de la investigaci&oacute;n del &ldquo;Proyecto para una D&eacute;cada de Cooperativas&rdquo; desarrollado por la Alianza Cooperativa Internacional, se obtienen dos s&iacute;mbolos del movimiento cooperativo global: la marca y el eslogan, que han sido creados para fortalecer y dar visibilidad al movimiento solidario, el cual se caracteriza por ser m&aacute;s humano, m&aacute;s sensible y actor de procesos de transformaci&oacute;n social.</span></p>
             <!--2.5.1.-->
+            <section id="2.5.1."></section>
             <h3 class="subt2Unidad">2.5.1. La marca cooperativa “coop”  </h3>
             <p align="justify"><span ><span >La palabra &ldquo;coop&rdquo;, surge como una abreviaci&oacute;n de la palabra &ldquo;cooperativa&rdquo;, que representa una forma diferente de organizaci&oacute;n econ&oacute;mica. Para identificarla como marca cooperativa, participaron m&aacute;s de 1000 personas de 86 pa&iacute;ses alrededor del mundo. Gr&aacute;ficamente, tiene dos letras entrelazadas que se constituyen en el elemento central: </span></span>&nbsp;</p>
             <center><img src="assets/images/coop.png" style="padding:70px" alt=""></center>
@@ -103,37 +109,25 @@
       <div class="col-md-3 sidebar-outer" role="complementary">
         <a href="#" data-toggle="collapse" data-target="#toggleDemo0" data-parent="#sidenav01" class="collapsed">
                     <h4>
-                        Unidad 1
+                        Unidad 2
                         <br>
-                        <small>HISTORIA DEL COOPERATIVISMO </small>
+                        <small>PRINCIPIOS Y VALORES DE LA ECONOMÍA SOLIDARIA</small>
                     </h4>
                   </a>
            
 
             <ul id="tree3" >
 
-              <li>
-                  <a href="#" >
-                  <span class="glyphicon glyphicon-cloud"></span> 1.1.	Primera parte:  La cooperación y la solidaridad como un hecho recurrente en la historia
-                  </a>
-
-                    <ul class="">
-                        <li><a href="#">1.1.1.	La cooperación en la comunidad primitiva</a></li>
-                        <li><a href="#">1.1.2.	Formas de cooperación en la sociedad esclavista</a></li>
-                        <li><a href="#">1.1.3.	Otras asociaciones antiguas</a></li>
-                        <li><a href="#">1.1.4.	Formas de cooperación de la sociedad feudal</a></li>
-                    </ul>
-
-              </li>
+              <li><a href="#2.1." >2.1.	 ¿Qué se entiende por economía solidaria?</a></li>
+              <li><a href="#2.2." >2.2.	 Principios de la economía solidaria</a></li>
+              <li><a href="#2.3." >2.3.	 Fines de la Economía Solidaria</a></li>
+              <li><a href="#2.4." >2.4.	 Valores de la Economía Solidaria</a></li>
               <li >
-                  <a href="#" >
-                  <span class="glyphicon glyphicon-inbox"></span> 1.2.	Segunda parte: Precursores de las ideas cooperativas y la economía solidaria 
+                  <a href="#2.5." >
+                  <span class="glyphicon glyphicon-inbox"></span> 2.5.	La marca cooperativa “coop”
                   </a>
                     <ul class="">
-                        <li><a href="#">1.2.1.	Peter Cornelius Plocboy y las pequeñas Repúblicas</a></li>
-                        <li><a href="#">1.2.2.	Jhon Bellers y las colonias de trabajo colectivo</a></li>
-                        <li><a href="#">1.2.3.	Robert Owen: Las cooperativas integrales y los almacenes de consumo</a></li>
-                        <li><a href="#">1.2.4.	Charles Fourier: los Falansterios y Almacenes de Consumo</a></li>
+                        <li><a href="#2.5.1.">2.5.1.	La marca cooperativa “coop”</a></li>
                     </ul>
               </li>
               <li><a href="#"><span class="glyphicon glyphicon-lock"></span> Actividades</a></li>
