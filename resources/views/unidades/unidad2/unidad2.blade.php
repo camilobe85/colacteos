@@ -133,7 +133,6 @@
               <li><a href="#"><span class="glyphicon glyphicon-lock"></span> Actividades</a></li>
               <li><a href="#"><span class="glyphicon glyphicon-calendar"></span> Evaluación</a></li>
             </ul>
-            <a href="#top" class="back-to-top"> Regresar arriba </a> 
       </div>
    </div>
 </div>

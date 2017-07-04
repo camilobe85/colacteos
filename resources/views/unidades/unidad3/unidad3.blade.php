@@ -272,13 +272,12 @@
 
             <ul id="tree3" >
 
-                <li><a href="#3.1." ><span class="glyphicon glyphicon-cloud"></span> 3.1.	COOPERATIVAS</a></li>
-                <li><a href="#3.2." ><span class="glyphicon glyphicon-cloud"></span> 3.2.	CLASES DE COOPERATIVAS</a></li>
-                <li><a href="#3.3." ><span class="glyphicon glyphicon-cloud"></span> 3.3.	PRECOOPERATIVAS</a></li>
+                <li><a href="#3.1." > 3.1.	COOPERATIVAS</a></li>
+                <li><a href="#3.2." > 3.2.	CLASES DE COOPERATIVAS</a></li>
+                <li><a href="#3.3." > 3.3.	PRECOOPERATIVAS</a></li>
                 <li><a href="#"><span class="glyphicon glyphicon-lock"></span> Actividades</a></li>
                 <li><a href="#"><span class="glyphicon glyphicon-calendar"></span> Evaluación</a></li>
             </ul>
-            <a href="#top" class="back-to-top"> Regresar arriba </a> 
       </div>
    </div>
 </div>
