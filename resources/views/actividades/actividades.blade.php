@@ -1,6 +1,7 @@
 @extends('layouts.app') 
 @section('css') 
 <link href="{{ asset('/assets/css/timeline.css') }}" rel="stylesheet">
+<link href="{{ asset('/assets/css/style-game.css') }}" rel="stylesheet">
 @endsection 
 @section('content')
 <div class="container">
@@ -11,18 +12,21 @@
                 <input type="button" class="btn btn-default" value="Unidad 1" onclick="changePage(1)">
                 <input type="button" class="btn btn-default" value="Unidad 2" onclick="changePage(2)">
                 <input type="button" class="btn btn-default" value="Unidad 3" onclick="changePage(3)">
-                <input type="submit" class="btn btn-success" value="Finish Survey">
+                <input type="submit" class="btn btn-success" value="Guardar Actividades">
                 <div style="display:none">
                     <input type="hidden" name="csrf_test_name" value="55721a0bc16989d820b0b1d38d16c64d">
                 </div>
                 <div class="new_page" id="page_1" style="display: block;">
                     <div class="panel panel-default">
                         <div class="panel-body">
-                            <h3>Actividades Unidad 1</h3>
+                            <h3>Actividades Unidad 1 - HISTÓRIA DEL COOPERATIVISMO</h3>
                             <hr>
                             <p>Usted se encuentra la sección de actividades de la Unidad 1. A medida que va terminando las actividades se irán habilitando las unidades para completar el curso. Gracias. </p>
                         </div>
                     </div>
+                    
+                    <p><b>Actividad 1.</b>  A continuación encontrará una serie de preguntas para evaluar nuestros conocimientos sobre los aspectos fundamentales de la historia del cooperativismo.</p>
+                    
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h3 class="panel-title"><b>1.</b>Lectura Número Uno</h3>
@@ -161,9 +165,8 @@
                         <!-- end panel body -->
                     </div>
                     <!-- end panel class -->
-                    <h3 class="page-header">TALLER HISTÓRIA DEL COOPERATIVISMO</h3>
-                    <p><b>1.</b>  A continuación encontrará una serie de preguntas para evaluar nuestros conocimientos sobre los aspectos fundamentales de la historia del cooperativismo.</p>
-                    <p>Determine con una (X) si los enunciados son falsos o verdaderos:</p>
+
+                    <p>Determine si los enunciados son falsos o verdaderos:</p>
                     <br>
                     <!-- pregunta 1 -->
                     <div class="panel panel-default">
@@ -821,62 +824,67 @@
                     </div>
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h3 class="panel-title">Which logos could do with being improved? <span class="label label-primary">Required</span>
-                            </h3>
+                            <h3 class="panel-title"><b>Ejercicio interactivo. Apareamiento: </b> Encontrar las relaciones entre los principios y valores de la Economía Solidaria y sus aplicaciones en las organizaciones</h3>
                         </div>
                         <div class="panel-body">
-                            <div class="row spacing-elements">
-                                <div class="col-lg-6">
-                                    <a href="http://survey.patchesoft.com/uploads/survey_answer_6_1396555550_626.png" rel="prettyPhoto[question_6]"><img src="http://survey.patchesoft.com/uploads/survey_answer_6_1396555550_626.png" width="238" height="75" class="survey_thumbs"></a>
-                                    <div class="input-group">
-                                        <span class="input-group-addon">
-                           <input type="checkbox" name="question-checkbox-6-38" value="1" class="requiredField checkbutton question-checkbox-6">
-                           </span>
-                                        <input type="text" class="form-control" value="CodeCanyon" disabled="">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h3>PRINCIPIOS Y VALORES DE LA ECONOMÍA SOLIDARIA</h3>
+                                    <p>Relacione los cuadros del lado izquierdo, con el cuadro correspondiente del lado derecho.</p>
+                                </div>
+                                <div class="col-lg-12">
+                                <!-- Inicio juego Apareamiento -->
+                                <div id="body">
+                                    <div id="svgbasics"></div>
+
+                                    <div id="pnlAllIn">
+                                        <div id="leftPanel">
+
+                                        </div>
+                                        <div id="rightPanel">
+
+                                        </div>
                                     </div>
-                                    <!-- /input-group -->
+                                    <div class="clearfix"></div>
+
+                                    <script id="personTemplate" type="text/x-jsrender">
+                                        <div class="person [%:cls%]">
+                                            <input type="hidden" value="[%:id%]" />
+                                            <ul class="buttons">
+                                                <li><span class="ui-icon-arrow-4 ui-icon"></span></li>
+                                                <li><span class="ui-icon-shuffle ui-icon"></span></li>
+                                            </ul>
+                                            <!--<img alt="" src="" />-->
+                                            <ul class="name">
+                                                <li>
+                                                    <h2>[%:id%]. [%:name%]</h2>
+                                                </li>
+                                                <li>[%:position%]</li>
+                                            </ul>
+                                        </div>
+                                    </script>
+
+                                    <div id="dialog" title="Reset persons mapping?">
+                                        <p>
+                                            <span class="ui-icon ui-icon-alert"></span>¿Desea borrar todas las conexiones asiganadas, a sus posiciones originales?</p>
+                                    </div>
+
+                                    
+
+                                </div><!-- end body -->
+                                <!-- Inicio juego Apareamiento -->
+                                
                                 </div>
                             </div>
-                            <div class="row spacing-elements">
-                                <div class="col-lg-6">
-                                    <a href="http://survey.patchesoft.com/uploads/survey_answer_6_1396555550_672.png" rel="prettyPhoto[question_6]"><img src="http://survey.patchesoft.com/uploads/survey_answer_6_1396555550_672.png" width="238" height="75" class="survey_thumbs"></a>
-                                    <div class="input-group">
-                                        <span class="input-group-addon">
-                           <input type="checkbox" name="question-checkbox-6-39" value="1" class="requiredField checkbutton question-checkbox-6">
-                           </span>
-                                        <input type="text" class="form-control" value="ThemeForest" disabled="">
-                                    </div>
-                                    <!-- /input-group -->
-                                </div>
-                            </div>
-                            <div class="row spacing-elements">
-                                <div class="col-lg-6">
-                                    <a href="http://survey.patchesoft.com/uploads/survey_answer_6_1396555550_698.png" rel="prettyPhoto[question_6]"><img src="http://survey.patchesoft.com/uploads/survey_answer_6_1396555550_698.png" width="238" height="75" class="survey_thumbs"></a>
-                                    <div class="input-group">
-                                        <span class="input-group-addon">
-                           <input type="checkbox" name="question-checkbox-6-40" value="1" class="requiredField checkbutton question-checkbox-6">
-                           </span>
-                                        <input type="text" class="form-control" value="AudioJungle" disabled="">
-                                    </div>
-                                    <!-- /input-group -->
-                                </div>
-                            </div>
-                            <div class="row spacing-elements">
-                                <div class="col-lg-6">
-                                    <a href="http://survey.patchesoft.com/uploads/survey_answer_6_1396555550_954.png" rel="prettyPhoto[question_6]"><img src="http://survey.patchesoft.com/uploads/survey_answer_6_1396555550_954.png" width="238" height="75" class="survey_thumbs"></a>
-                                    <div class="input-group">
-                                        <span class="input-group-addon">
-                           <input type="checkbox" name="question-checkbox-6-41" value="1" class="requiredField checkbutton question-checkbox-6">
-                           </span>
-                                        <input type="text" class="form-control" value="3Docean" disabled="">
-                                    </div>
-                                    <!-- /input-group -->
-                                </div>
-                            </div>
+                            
                         </div>
                         <!-- end panel body -->
                     </div>
                     <!-- end panel class -->
+                    <h4><b>Resumen de proceso: </b></h4>
+                    <div id="respuestas"></div>
+                    <button type="button" id="popButton" class="btn btn-primary">Reiniciar actividad</button>
+                    
                 </div>
                 <!-- end page -->
                 <div class="new_page" id="page_3" style="display: none;">
@@ -886,37 +894,157 @@
                             <hr>
                         </div>
                     </div>
+                    <h3 class="page-header">EJERCICIO INTERACTIVO</h3>
+                    <p>A continuación encontrará una serie de preguntas para evaluar nuestros conocimientos sobre la Unidad 3.</p>
+                    <p>Determine si los enunciados son falsos o verdaderos:</p>
+                    <br>
+                    <!-- pregunta 1 -->
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h3 class="panel-title">Tell us your name! <span class="label label-primary">Required</span>
-                            </h3>
+                            <h3 class="panel-title"><b>1. </b>Las cooperativas son organizaciones solidarias de desarrollo sin ánimo de lucro, que, empleando bienes y servicios privados o gubernamentales, construyen y prestan bienes y servicios para el beneficio social</h3>
                         </div>
                         <div class="panel-body">
-                            <div class="row spacing-elements">
+                        <!-- a -->
+                            <div class="row">
                                 <div class="col-lg-6">
-                                    <input type="text" class="form-control requiredField" name="question-input-7-42" value="">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><input type="radio" name="question-radio-1" value="F" class="requiredField radiobutton"></span>
+                                        <input type="text" class="form-control" value="Falso" disabled="">
+                                    </div>
+                                    <!-- /input-group -->
                                 </div>
-                            </div>
+                                <div class="col-lg-6">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><input type="radio" name="question-radio-1" value="V" class="requiredField radiobutton"></span>
+                                        <input type="text" class="form-control" value="Verdadero" disabled="">
+                                    </div>
+                                    <!-- /input-group -->
+                                </div>
+                            </div><!-- end row -->
+                            
                         </div>
                         <!-- end panel body -->
                     </div>
                     <!-- end panel class -->
+                    <!-- end pregunta 1 -->
+                    <!-- pregunta 2 -->
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h3 class="panel-title">Next tell us why you love Envato so much! <span class="label label-primary">Required</span>
-                            </h3>
+                            <h3 class="panel-title"><b>2. </b>Cooperativas y preecooperativas son organizaciones de economía solidaria cuyas únicas diferencias son su número de integrantes y que la última, no puede dedicarse a ahorro y crédito. </h3>
                         </div>
                         <div class="panel-body">
-                            <div class="row spacing-elements">
+                        <!-- a -->
+                            <div class="row">
                                 <div class="col-lg-6">
-                                    <textarea class="form-control requiredField" name="question-input-8-43" rows="5"></textarea>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><input type="radio" name="question-radio-1" value="F" class="requiredField radiobutton"></span>
+                                        <input type="text" class="form-control" value="Falso" disabled="">
+                                    </div>
+                                    <!-- /input-group -->
                                 </div>
-                            </div>
+                                <div class="col-lg-6">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><input type="radio" name="question-radio-1" value="V" class="requiredField radiobutton"></span>
+                                        <input type="text" class="form-control" value="Verdadero" disabled="">
+                                    </div>
+                                    <!-- /input-group -->
+                                </div>
+                            </div><!-- end row -->
+                            
                         </div>
+                        <!-- end panel body -->
                     </div>
-                </div>
-                <!-- end page -->
+                    <!-- end panel class -->
+                    <!-- end pregunta 2 -->
+                    <!-- pregunta 3 -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title"><b>3. </b>Es responsabilidad de las organizaciones de economía solidaria garantizar la igualdad de derechos y obligaciones de sus miembros sin consideración a sus aportes.</h3>
+                        </div>
+                        <div class="panel-body">
+                        <!-- a -->
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><input type="radio" name="question-radio-1" value="F" class="requiredField radiobutton"></span>
+                                        <input type="text" class="form-control" value="Falso" disabled="">
+                                    </div>
+                                    <!-- /input-group -->
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><input type="radio" name="question-radio-1" value="V" class="requiredField radiobutton"></span>
+                                        <input type="text" class="form-control" value="Verdadero" disabled="">
+                                    </div>
+                                    <!-- /input-group -->
+                                </div>
+                            </div><!-- end row -->
+                            
+                        </div>
+                        <!-- end panel body -->
+                    </div>
+                    <!-- end panel class -->
+                    <!-- end pregunta 3 -->
+                    <!-- pregunta 4 -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title"><b>4. </b>Existen cinco tipos de cooperativas según los servicios que prestan: Integrales, especializadas, mutuales, ahorro y crédito y multiactivas.</h3>
+                        </div>
+                        <div class="panel-body">
+                        <!-- a -->
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><input type="radio" name="question-radio-1" value="F" class="requiredField radiobutton"></span>
+                                        <input type="text" class="form-control" value="Falso" disabled="">
+                                    </div>
+                                    <!-- /input-group -->
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><input type="radio" name="question-radio-1" value="V" class="requiredField radiobutton"></span>
+                                        <input type="text" class="form-control" value="Verdadero" disabled="">
+                                    </div>
+                                    <!-- /input-group -->
+                                </div>
+                            </div><!-- end row -->
+                            
+                        </div>
+                        <!-- end panel body -->
+                    </div>
+                    <!-- end panel class -->
+                    <!-- end pregunta 4 -->
+                    <!-- pregunta 5 -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title"><b>5. </b>Existen dos tipos de cooperativas según la actividad económica que realizan: Producción y consumo.</h3>
+                        </div>
+                        <div class="panel-body">
+                        <!-- a -->
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><input type="radio" name="question-radio-1" value="F" class="requiredField radiobutton"></span>
+                                        <input type="text" class="form-control" value="Falso" disabled="">
+                                    </div>
+                                    <!-- /input-group -->
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><input type="radio" name="question-radio-1" value="V" class="requiredField radiobutton"></span>
+                                        <input type="text" class="form-control" value="Verdadero" disabled="">
+                                    </div>
+                                    <!-- /input-group -->
+                                </div>
+                            </div><!-- end row -->
+                            
+                        </div>
+                        <!-- end panel body -->
+                    </div>
+                    <!-- end panel class -->
+                    <!-- end pregunta 5 -->
 
+                </div><!-- end page -->
             </form>
         </div>
     </div>
@@ -1080,25 +1208,25 @@
 
         if (slotNumber == cardNumber) {
             if (slotNumber == 1) {
-                $('#message').show().html("SLA works by curing and solidify successive layers of liquid photopolymer resin using an ultraviolet laser.");
+                //$('#message').show().html("SLA works by curing and solidify successive layers of liquid photopolymer resin using an ultraviolet laser.");
             }
             if (slotNumber == 2) {
-                $('#message').show().html("Selective Laser Sintering is similar to SLA, but instead of liquid resin, powdered materials including nylon, ceramics, glass, aluminum, to steel or silver can be used.");
+               // $('#message').show().html("Selective Laser Sintering is similar to SLA, but instead of liquid resin, powdered materials including nylon, ceramics, glass, aluminum, to steel or silver can be used.");
             }
             if (slotNumber == 3) {
-                $('#message').show().html("Chuck Hull founds 3D systems, which develops its first commercial 3D printer, the Stereolithography Apparatus (or SLA-1)");
+                ///$('#message').show().html("Chuck Hull founds 3D systems, which develops its first commercial 3D printer, the Stereolithography Apparatus (or SLA-1)");
             }
             if (slotNumber == 4) {
-                $('#message').show().html("Fused Deposition Modeling heats and extrudes thermoplastic filament, depositing layers of semi-liquid beads along an STL-defined extrusion path.");
+                //$('#message').show().html("Fused Deposition Modeling heats and extrudes thermoplastic filament, depositing layers of semi-liquid beads along an STL-defined extrusion path.");
             }
             if (slotNumber == 5) {
-                $('#message').show().html("Scott Crump founds Stratasys");
+                //$('#message').show().html("Scott Crump founds Stratasys");
             }
             if (slotNumber == 6) {
-                $('#message').show().html("Four Selective Laser Sintering machines were built, but none were ever sold. Each cost $300,000-$400,000.");
+                //$('#message').show().html("Four Selective Laser Sintering machines were built, but none were ever sold. Each cost $300,000-$400,000.");
             }
             if (slotNumber == 7) {
-                $('#message').show().html("LOM bonds and cuts sheet material using a digitally guided laser.");
+                //$('#message').show().html("LOM bonds and cuts sheet material using a digitally guided laser.");
             }
 
             animateMessage();
@@ -1153,4 +1281,333 @@
     }
     /* end timeline game*/
 </script>
+
+<!-- script juego apareamento -->
+<script src="{{ asset('/assets/js/raphael-min.js') }}"></script>
+<script src="{{ asset('/assets/js/jsrender.min.js') }}"></script>
+<script>
+$.views.settings.delimiters("[%", "%]");
+/*
+ **
+ ** Part of StackOverflow Answer 
+ **	http://stackoverflow.com/questions/536676/how-to-draw-a-line-between-draggable-and-droppable
+ **
+ ** Created and Maintained by Bruno Alexandre (balexandre.com) 
+ **
+ ** GIT REPO at https://github.com/balexandre/Draggable-Line-to-Droppable
+ **
+ ** Last Edit: 19 February 2013
+ **
+ */
+
+var isDialogOpen = false,
+    myLines = [],
+    svg = null;
+
+// icons
+var ico_userNormal = 'https://github.com/balexandre/Draggable-Line-to-Droppable/raw/master/icons/user-48x48.png',
+    ico_userChecked = 'https://github.com/balexandre/Draggable-Line-to-Droppable/raw/master/icons/check-user-48x48.png';
+
+$(document).ready(function() {
+
+    // render persons
+    renderPersons();
+
+    // initialize & setup everything
+    initialize();
+
+});
+
+function initialize() {
+    // set up the drawing area from Body of the document
+    //  -30px for the offset...
+    $("#svgbasics")
+        .css("height", $("#body").height() - 30)
+        .css("width", $("#body").width() - 30);
+
+    // Mapping dialog box			
+    $("#dialogMappingResult").dialog({
+        autoOpen: false,
+        modal: true,
+        overlay: {
+            backgroundColor: '#000',
+            opacity: 0.5
+        },
+        buttons: {
+            Close: function() {
+                $(this).dialog('close');
+            }
+        }
+    });
+
+    // Reset mappings dialog box
+    $("#dialog").dialog({
+        autoOpen: false,
+        modal: true,
+        overlay: {
+            backgroundColor: '#000',
+            opacity: 0.5
+        },
+        buttons: {
+            'Cancelar': function() {
+                $(this).dialog('close');
+            },
+            'Reiniciar': function() {
+
+                // change class and image back to default
+                $("div .droppable")
+                    .removeClass("ui-state-highlight")
+                    .find("img")
+                    .removeAttr("src")
+                    .attr("src", ico_userNormal);
+
+                // enable the droppable area	
+                $("div .droppable").droppable("enable");
+
+                // change class and image back to default
+                $("div .draggable")
+                    .removeClass("ui-state-highlight")
+                    .find("img")
+                    .removeAttr("src")
+                    .attr("src", ico_userNormal);
+                // change icon back to default
+                $("div .draggable")
+                    .find(".ui-icon-locked")
+                    .removeClass("ui-icon-locked")
+                    .addClass("ui-icon-shuffle");
+
+                // reset the draggable value
+                $("div .draggable")
+                    .find("input:hidden")
+                    .each(function() {
+                        $(this).val($(this).val().split("_")[0]);
+                    });
+
+                // enable the draggable area	
+                $("div .draggable").draggable("enable");
+
+                // reset the mapping dialog
+                $("#dialogMappingResult")
+                    .find("ul")
+                    .empty()
+                    .append("<li>No mapping was done yet</li>");
+
+                $(this).dialog("close");
+
+                // clear lines
+                svgClear();
+            }
+        }
+    });
+
+    // all draggable elements
+    $("div .draggable").draggable({
+        revert: true,
+        snap: false
+            /*,helper: "clone"*/
+    });
+
+    // all droppable elements
+    $("div .droppable").droppable({
+        hoverClass: "ui-state-hover",
+        helper: "clone",
+        cursor: "move",
+        drop: function(event, ui) {
+            // change class and image
+            $(this)
+                .addClass("ui-state-highlight")
+                .find("img")
+                .removeAttr("src")
+                .attr("src", ico_userChecked);
+
+            // disable it so it can"t be used anymore		
+            $(this).droppable("disable");
+
+            // change class and image of the source elemenet		
+            $(ui.draggable)
+                .addClass("ui-state-highlight")
+                .find("img")
+                .removeAttr("src")
+                .attr("src", ico_userChecked);
+
+            // change the icon of the source element				
+            $(ui.draggable)
+                .find(".ui-icon-shuffle")
+                .removeClass("ui-icon-shuffle")
+                .addClass("ui-icon-locked");
+
+            var sourceValue = $(ui.draggable).find("input:hidden").val();
+            var targetValue = $(this).find("input:hidden").val();
+
+            // remove mapping dialog box line if exists
+            if ($("#dialogMappingResult").find("ul > li:first").html() == "No mapping was done yet")
+                $("#dialogMappingResult").find("ul").empty();
+
+            // append the mapping to the dialog	
+            $("#respuestas")
+                .append("<p><b>" + sourceValue + "</b> relacionada con <b>" + targetValue + "</b> | </p>");
+
+            // change the input element to contain the mapping target and source
+            $(ui.draggable)
+                .find("input:hidden")
+                .val(sourceValue + "_" + targetValue);
+
+            // disable it so it can"t be used anymore	
+            $(ui.draggable).draggable("disable");
+
+            svgDrawLine($(this), $(ui.draggable));
+        }
+    });
+
+    $("#popButton").click(function() {
+        //$("#dialog").dialog("open");
+        reiniciar();
+    });
+
+    function reiniciar() {
+                $("#respuestas").empty();
+                // change class and image back to default
+                $("div .droppable")
+                    .removeClass("ui-state-highlight")
+                    .find("img")
+                    .removeAttr("src")
+                    .attr("src", ico_userNormal);
+
+                // enable the droppable area	
+                $("div .droppable").droppable("enable");
+
+                // change class and image back to default
+                $("div .draggable")
+                    .removeClass("ui-state-highlight")
+                    .find("img")
+                    .removeAttr("src")
+                    .attr("src", ico_userNormal);
+                // change icon back to default
+                $("div .draggable")
+                    .find(".ui-icon-locked")
+                    .removeClass("ui-icon-locked")
+                    .addClass("ui-icon-shuffle");
+
+                // reset the draggable value
+                $("div .draggable")
+                    .find("input:hidden")
+                    .each(function() {
+                        $(this).val($(this).val().split("_")[0]);
+                    });
+
+                // enable the draggable area	
+                $("div .draggable").draggable("enable");
+
+                // reset the mapping dialog
+                $("#dialogMappingResult")
+                    .find("ul")
+                    .empty()
+                    .append("<li>No mapping was done yet</li>");
+                // clear lines
+                svgClear();
+            }
+
+    $("#getMappings").click(function() {
+        $("#dialogMappingResult").dialog("open");
+    });
+    var wsvg = $("#body").width()-30;
+    var hsvg = $("#body").height()-30;
+    console.log('Medidas: ' + wsvg + ' - ' + hsvg);
+    svg = Raphael("svgbasics", wsvg, hsvg); 
+}
+
+function svgClear() {
+    svg.clear();
+}
+
+function svgDrawLine(eTarget, eSource) {
+
+    // wait 1 sec before draw the lines, so we can get the position of the draggable
+    setTimeout(function() {
+
+        var $source = eSource;
+        var $target = eTarget;
+        //console.log('sourceW: '+ ($('#body').offset());
+        // origin -> ending ... from left to right
+        // 10 + 10 (padding left + padding right) + 2 + 2 (border left + border right)
+        var originX =  ($source.offset().left - $('#body').offset().left) + 310;//$source.offset().left + $('#body').offset().left +80;// 
+        var originY = $source.offset().top - ($('#body').offset().top - 40);// + (($source.height() + 20 + 4) / 2);
+
+        var endingX =($target.offset().left - $('#body').offset().left) + 19;// - $('#body').offset().left;
+        var endingY = $target.offset().top - ($('#body').offset().top - 40);// + (($target.height() + 20 + 4) / 2) ;
+
+        var space = 0;
+        var color = colours[random(9)];
+
+        // draw lines
+        // http://raphaeljs.com/reference.html#path			
+        var a = "M" + originX + " " + originY + " L" + (originX + space) + " " + originY; // beginning
+        var b = "M" + (originX + space) + " " + originY + " L" + (endingX - space) + " " + endingY; // diagonal line
+        var c = "M" + (endingX - space) + " " + endingY + " L" + endingX + " " + endingY; // ending
+        var all = a + " " + b + " " + c;
+
+        /**/
+        // log (to show in FF (with FireBug), Chrome and Safari)			
+        console.log("New Line ----------------------------");
+        console.log("originX: " + originX + " | originY: " + originY + " | endingX: " + endingX + " | endingY: " + endingY + " | space: " + space + " | color: " + color);
+        console.log(all);
+        /**/
+
+        // write line
+        myLines[myLines.length] = svg
+            .path(all)
+            .attr({
+                "stroke": color,
+                "stroke-width": 2,
+                "stroke-dasharray": "--."
+            });
+
+    }, 1000);
+
+}
+
+function random(range) {
+    return Math.floor(Math.random() * range);
+}
+
+// Render persons on both sides using JsRender
+function renderPersons() {
+    console.log('redering left persons...');
+    var htmlL = $("#personTemplate").render(leftPersons);
+    $("#leftPanel").html(htmlL);
+
+    console.log('redering right persons...');
+    var htmlR = $("#personTemplate").render(rightPersons);
+    $("#rightPanel").html(htmlR);
+
+    // give all the correct image
+    $(".person img").each(function() {
+        $(this).attr("src", ico_userNormal);
+    });
+}
+
+// random colors are not that random after all
+var colours = ["purple", "red", "orange", "yellow", "lime", "green", "blue", "navy", "black"];
+
+// list of persons to render
+var leftPersons = [
+    { id: 1, name: 'Adhesión voluntaria y abierta', position: '', cls: 'draggable' },
+    { id: 2, name: 'Educación, formación e información', position: '', cls: 'draggable' },
+    { id: 3, name: 'Administración democrática por parte de los asociados', position: '', cls: 'draggable' },
+    { id: 4, name: 'Cooperación entre cooperativas', position: '', cls: 'draggable' },
+    { id: 5, name: 'Participación económica de los asociados', position: '', cls: 'draggable' },
+    { id: 6, name: 'Autonomía e Independencia', position: '', cls: 'draggable' },
+    { id: 7, name: 'Interés por la comunidad', position: '', cls: 'draggable' }
+];
+var rightPersons = [
+    { id: 8, name: 'El sector solidario persigue la ayuda mutua entre cooperativas, generando redes estructurales fuertes, para impactar a nivel local, regional, nacional e internacional.', position: '', cls: 'droppable' },
+    { id: 9, name: 'Los aportes económicos de los asociados son equitativos y administrados de forma democrática, en donde una parte del capital es de todos', position: '', cls: 'droppable' },
+    { id: 10, name: 'Las cooperativas son administradas por todos sus asociados de forma autónoma y de autoayuda', position: '', cls: 'droppable' },
+    { id: 11, name: 'Las personas que conforman una cooperativa se organizan de forma voluntaria, con disposición a aceptar las responsabilidades y ejercer los deberes sin ninguna discriminación. ', position: '', cls: 'droppable' },
+    { id: 12, name: 'Las cooperativas cumplen una función social a partir de sus acciones, generando procesos de transformación en las comunidades.', position: '', cls: 'droppable' },
+    { id: 13, name: 'En una cooperativa las opiniones, puntos de vista y aportes de todos los asociados son importantes, por tanto, la formulación de políticas y la toma de decisiones, se realiza de forma democrática.', position: '', cls: 'droppable' },
+    { id: 14, name: 'Las cooperativas deben contar con un programa de formación permanente para todos sus asociados y empleados en temáticas acordes a las dinámicas solidarias y al objeto social.', position: '', cls: 'droppable' }
+];
+</script>
+
 @endsection

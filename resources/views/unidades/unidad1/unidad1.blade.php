@@ -149,8 +149,7 @@
                         <li><a href="#1.2.4.">1.2.4.	Charles Fourier: los Falansterios y Almacenes de Consumo</a></li>
                     </ul>
               </li>
-              <li><a href="#"><span class="glyphicon glyphicon-lock"></span> Actividades</a></li>
-              <li><a href="#"><span class="glyphicon glyphicon-calendar"></span> Evaluación</a></li>
+              <li><a href="actividades"><span class="glyphicon glyphicon-lock"></span> Actividades</a></li>
             </ul>
       </div>
    </div>

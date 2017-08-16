@@ -39,6 +39,7 @@ h5 {
     font-size: 1.28571429em;
     font-weight: 700;
     line-height: 1.2857em;
+    text-align: center;
 }
 
 .card-text {
@@ -57,6 +58,7 @@ h5 {
     color: rgba(0, 0, 0, .4);
     border-top: 1px solid rgba(0, 0, 0, .05) !important;
     background: #fff;
+    text-align: center;
 }
 
 .card-inverse .btn {
@@ -89,7 +91,7 @@ h5 {
     display: inline-block;
 }
 
-.profile-inline ~ .card-title {
+.profile-inline~.card-title {
     display: inline-block;
     margin-left: 4px;
     vertical-align: top;
@@ -102,11 +104,16 @@ h5 {
 .meta {
     font-size: 1em;
     color: rgba(0, 0, 0, .4);
+    font-weight: bolder;
+    color: black !important;
+    text-align: center;
 }
 
 .meta a {
     text-decoration: none;
-    color: rgba(0, 0, 0, .4);
+    color: #003767;
+    font-size: 18px;
+    text-align: center;
 }
 
 .meta a:hover {

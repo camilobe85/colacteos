@@ -55,7 +55,7 @@
             <div class="collapse navbar-collapse" id="app-navbar-collapse">
                 <!-- Left Side Of Navbar -->
                 <ul class="nav navbar-nav">
-                    <li><a href="{{ url('/home') }}">Principal</a></li>
+                    <li><a href="{{ url('/home') }}">Iniciar curso</a></li>
                     <!-- Authentication Links -->
                     @if (!Auth::guest())
                         <li class="dropdown">
@@ -69,6 +69,7 @@
                                 <li><a href="{{ url('/unidad3') }}"><i class="fa fa-btn fa-book"></i>Unidad III</a></li>
                             </ul>
                         </li>
+                        <li><a href="{{ url('/actividades') }}">Actividades</a></li>
                     @endif
                 </ul>
 
@@ -76,8 +77,8 @@
                 <ul class="nav navbar-nav navbar-right">
                     <!-- Authentication Links -->
                     @if (Auth::guest())
-                        <li><a href="{{ url('/login') }}">Ingresar</a></li>
-                        <li><a href="{{ url('/register') }}">Registrarse</a></li>
+                        <li><a href="{{ url('/login') }}">Ingresar al curso</a></li>
+                        <li><a href="{{ url('/register') }}">Registrarse en el curso</a></li>
                     @else
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -100,38 +101,44 @@
     <footer class="bs-docs-footer">
     <div class="container">
         <div class="row">
-        <div class="col-md-4 col-sm-6 footerleft ">
-            <div class="logofooter"> <img class="logopie" src="assets/images/logosFooter.svg" alt="" /> </div>
-            <p>Curso desarrollado en alianza.</p>
-            <p><i class="fa fa-map-pin"></i>Calle 18 No. 47 – 150 Torobajo Pasto - Nariño - Colombia</p>
-            <p><i class="fa fa-phone"></i> Teléfono (Pasto) : +57 (2) 7336706 Ext. 2181-2191 </p>
-            <p><i class="fa fa-envelope"></i> E-mail : ​ami.pasto@ucc.edu.co</p>
+        <div class="col-md-6 col-sm-6 footerleft ">
+            <div class="logofooter"> 
+            <a href="http://www.colacteos.com/" target="blank"><img class="logopie" src="assets/images/colacteos.svg" alt="" style="max-width: 150px;"/> </a>
+            <a href="https://www.facebook.com/Indesco/" target="blank"><img class="logopie" src="assets/images/indesco.svg" alt="" style="max-width: 100px;"/> </a>
+            <a href="http://www.ucc.edu.co/pasto/Paginas/inicio.aspx" target="blank"><img class="logopie" src="assets/images/cooperativa.svg" alt="" style="max-width: 100px;"/> </a>
             
-        </div>
-        <div class="col-md-2 col-sm-6 paddingtop-bottom">
+            </div>
+            <p><b>Curso desarrollado en alianza entre la Cooperativa de Productos Lácteos de Nariño Ltda. y el Instituto de Economía Social y Cooperativismo de la Universidad Cooperativa de Colombia - Sede Pasto</b></p>
+            <br>
+            <p><i class="fa fa-map-pin"></i>Cra 36 No. 13-26 Av. Panamericana, Pasto - Nariño - Colombia</p>
+            <p><i class="fa fa-phone"></i> Teléfono (Pasto) : +57 (2) 7333777 - +57 (2) 7228822 Ext. 2181-2191 </p>
+            <p><i class="fa fa-envelope"></i> E-mail : <a href="correo@colacteos.com">correo@colacteos.com</a></p>
+            <br>
             <h6 class="heading7">LINKS</h6>
             <ul class="footer-ul">
-            <li><a href="#"> Ingresar</a></li>
-            <li><a href="#"> Registrar</a></li>
-            <li><a href="#"> Terminos & Condiciones</a></li>
-            <li><a href="#"> Preguntas frecuentes</a></li>
+                <li><a href="#"> Ingresar</a></li>
+                <li><a href="#"> Registrar</a></li>
+                <li><a href="#"> Terminos & Condiciones</a></li>
+                <li><a href="#"> Preguntas frecuentes</a></li>
             </ul>
         </div>
-        <div class="col-md-3 col-sm-6 paddingtop-bottom">
-            <h6 class="heading7">Últimas publicaciones</h6>
-            <div class="post">
-            <p>Comentario 1 sobre el curso de Economía Solidaria <span>August 3,2017</span></p>
-            <p>Comentario 2 sobre el curso de Economía Solidaria <span>August 4,2017</span></p>
-            <p>Comentario 3 sobre el curso de Economía Solidaria <span>August 6,2017</span></p>
+        <div class="col-md-6 col-sm-6 paddingtop-bottom">
+            <h6 class="heading7">Últimas publicaciones | <a href="https://www.facebook.com/ColacteosOficial/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></h6>
+
+            <div class="post" style="background-color: white;padding: 15px;border-radius: 6px;    -webkit-box-shadow: inset 2px 2px 5px 0px rgba(0,0,0,0.75);    -moz-box-shadow: inset 2px 2px 5px 0px rgba(0,0,0,0.75);    box-shadow: inset 2px 2px 5px 0px rgba(0,0,0,0.75);">
+            <script src="//assets.juicer.io/embed.js" type="text/javascript"></script>
+            <link href="//assets.juicer.io/embed.css" media="all" rel="stylesheet" type="text/css" />
+            <ul class="juicer-feed" data-feed-id="indesco" data-per="10"></ul>
             </div>
+            
         </div>
-        <div class="col-md-3 col-sm-6 paddingtop-bottom">
+        <!--<div class="col-md-3 col-sm-6 paddingtop-bottom">
             <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-height="300" data-small-header="false" style="margin-bottom:15px;" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
-            <div class="fb-xfbml-parse-ignore">
-                <blockquote cite="https://www.facebook.com/Indesco/?fref=ts"><a href="https://www.facebook.com/Indesco/?fref=ts" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></blockquote>
+                <div class="fb-xfbml-parse-ignore">
+                    <blockquote cite="https://www.facebook.com/Indesco/?fref=ts"><a href="https://www.facebook.com/Indesco/?fref=ts" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></blockquote>
+                </div>
             </div>
-            </div>
-        </div>
+        </div>-->
         </div>
     </div>
     </footer>
@@ -140,15 +147,16 @@
     <div class="copyright">
     <div class="container">
         <div class="col-md-6">
-        <p>© 2017 - All Rights with Novadev</p>
+        <p>© 2017 - All Rights with <a href="#">Indesco</a></p>
         </div>
         <div class="col-md-6">
-        <ul class="bottom_ul">
-            <li><a href="#">novadev.com</a></li>
+        <!--<ul class="bottom_ul">
+            <li><a href="#">indesco.com</a></li>
             <li><a href="#">Sobre nosotros</a></li>
             <li><a href="#">Faq's</a></li>
             <li><a href="#">Contactanos</a></li>
-        </ul>
+        </ul>-->
+        
         </div>
     </div>
     </div>
@@ -184,6 +192,20 @@
         $('#back-to-top').tooltip('show');
 
 });
+
+/*hide logo*/
+var timefunction = 200, timef = 200;
+for (var i = 0; i < 10; i++) {
+    setTimeout(hideLogo, timef);
+    timef += timefunction;
+}
+
+function hideLogo(){
+    /*$('.referral').fadeOut( "slow" );
+    $('.juicer').fadeOut( "slow" ); */
+    $('.referral').hide();
+    $('.juicer').hide(); 
+}
     </script>
     @yield('scripts')
 </body>

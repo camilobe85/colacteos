@@ -4,8 +4,8 @@
 
 
 <div class="container">
-    <h3>Curso de Economía Solidaria</h3>
-    <p>Bienvenido al curso de Economía solidaria, te invitamos a examinar cada unidad para completar el contenido y las actividades correspondientes:</p>
+    <center><h3 class="page-header">Curso Introductorio de Economía Solidaria</h3></center>
+    <p style="text-align: justify;">Bienvenido al curso introductorio de economía solidaria, este curso virtual debe complementarse con sesiones de clase presenciales para recibir la certificación respectiva. El curso se encuentra compuesto, por tres unidades, te invitamos a examinar cada una de ellas, para que conozcas el contenido y realizar las actividades correspondientes a cada unidad, para obtener la calificación de este curso introductorio.</p>
     <br>
         <div class="row">
             <!--Unidad1-->
@@ -24,7 +24,7 @@
                     <div class="card-footer">
                         <!--<span class="float-right">Joined in 2013</span>
                         <span><i class=""></i>75 Friends</span>-->
-                        <a class="btn btn-info float-right btn-sm" href="{{ url('/unidad1') }}">Ver Unidad</a>
+                        <a class="btn btn-info float-right btn-lg" href="{{ url('/unidad1') }}">Ir a contenido unidad 1</a>
                     </div>
                 </div>
             </div>
@@ -45,7 +45,7 @@
                     <div class="card-footer">
                         <!--<span class="float-right">Joined in 2013</span>
                         <span><i class=""></i>75 Friends</span>-->
-                        <a class="btn btn-info float-right btn-sm" href="{{ url('/unidad2') }}">Ver Unidad</a>
+                        <a class="btn btn-info float-right btn-lg" href="{{ url('/unidad2') }}">Ir a contenido unidad 2</a>
                     </div>
                 </div>
             </div>
@@ -66,7 +66,7 @@
                     <div class="card-footer">
                         <!--<span class="float-right">Joined in 2013</span>
                         <span><i class=""></i>75 Friends</span>-->
-                        <a class="btn btn-info float-right btn-sm" href="{{ url('/unidad3') }}">Ver Unidad</a>
+                        <a class="btn btn-info float-right btn-lg" href="{{ url('/unidad3') }}">Ir a contenido unidad 3</a>
                     </div>
                 </div>
             </div>

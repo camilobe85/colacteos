@@ -275,8 +275,7 @@
                 <li><a href="#3.1." > 3.1.	COOPERATIVAS</a></li>
                 <li><a href="#3.2." > 3.2.	CLASES DE COOPERATIVAS</a></li>
                 <li><a href="#3.3." > 3.3.	PRECOOPERATIVAS</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-lock"></span> Actividades</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-calendar"></span> Evaluación</a></li>
+                <li><a href="actividades"><span class="glyphicon glyphicon-lock"></span> Actividades</a></li>
             </ul>
       </div>
    </div>
