@@ -123,7 +123,7 @@
             <p>La forma organizativa de sus colonias se basaba en la comunidad de bienes, el trabajo colectivo, la distribuci&oacute;n equitativa del producto, la igualdad de sus miembros y la ausencia de cualquier discriminaci&oacute;n religiosa, racial, se sexo, de nacionalidad.</p>
             <p>De regreso a Inglaterra, dedic&oacute; sus &uacute;ltimos a&ntilde;os de vida a luchar por la clase obrera. Muri&oacute; en 1858.</p>
             </section>
-            <!--1.2.4. -->
+            <!--1.2.4. --> 
             <section id="1.2.4." class="NavigationItem" title="Sección 1.2.4.">
             <h3 class="subt2Unidad">1.2.4	Charles Fourier: los Falansterios y Almacenes de Consumo</h3>
             <p>Este franc&eacute;s naci&oacute; en 1772 y muri&oacute; en 1837.&nbsp; Fue un autodidacta que elabor&oacute; sus ideas a partir del an&aacute;lisis de la naturaleza y de sus observaciones sobre la situaci&oacute;n que afrontaba la clase obrera francesa. Public&oacute; varios escritos, entre los que se encuentran: Teor&iacute;a de los cuatro movimientos (1808); La asociaci&oacute;n dom&eacute;stica agr&iacute;cola (1822), que luego denomin&oacute; La unidad Universal, el nuevo mundo industrial societario; y <em>La falsa industria</em> (1835).</p>
