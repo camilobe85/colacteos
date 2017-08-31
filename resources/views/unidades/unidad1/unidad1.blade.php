@@ -11,21 +11,24 @@
             
             <div class="bs-docs-section">
 
-                <div class="paginator">
-        <ul class="pager">
-        <li class="previous">
-            <a>Anterior</a>
-        </li>
-            <li >
-                <h3 class="fillSpace">Title goes here</h3>
-            </li>
-        <li class="next">
-            <a>Siguiente</a>
-        </li>
-        </ul>
-    </div>
-            <section id="1.1." class="navSelected NavigationItem" title="Sección 1.1.">
+            
             <h1 class="page-header" id="overview">Historia del cooperativismo</h1>
+
+            <div class="paginator">
+                <ul class="pager">
+                <li class="previous">
+                    <a>Anterior</a>
+                </li>
+                    <li >
+                        <h3 class="fillSpace">Title goes here</h3>
+                    </li>
+                <li class="next">
+                    <a>Siguiente</a>
+                </li>
+                </ul>
+            </div>
+
+            <section id="1.1." class="navSelected NavigationItem" title="Sección 1.1.">
             <h2 class="subtUnidad">1.1. Primera parte:  La cooperación y la solidaridad como un hecho recurrente en la historia</h2>
             <p>Tanto en la naturaleza como en la historia de las sociedades todo se encuentra conectado, nada ni nadie est&aacute; aislado, todos se deben unos a otros, todos reciben influencias y todos influyen sobre los dem&aacute;s. Entre los seres vivos esta interdependencia es bastante importante, pues la supervivencia de unas especies depende de la existencia de otras. La vida junto a otras especies es una estrategia de supervivencia, un medio de protecci&oacute;n y reproducci&oacute;n. La vida en sociedad, la vida entre humanos, no escapa a esta regla. As&iacute; pues, las sociedades est&aacute;n regidas a lo largo de su historia por la cooperaci&oacute;n y la solidaridad.</p>
             <p>Si bien en la historia humana aparecen conflictos, lo cierto es que estos conflictos han logrado resolverse gracias a la fuerza y sinergia de la cooperaci&oacute;n y la solidaridad. Debido a estas cualidades humanas las sociedades han logrado mantener su identidad, su cultura, su cohesi&oacute;n interna, defender su autonom&iacute;a, progresar y elevarse en todos los planos de su existencia material y espiritual.</p>

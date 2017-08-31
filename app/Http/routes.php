@@ -18,6 +18,8 @@ Route::get('/', function () {
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
+Route::get('/info', 'InfoController@index');
+Route::get('/terms', 'TermsController@index');
 Route::get('/unidad1', 'Unidad1Controller@index');
 Route::get('/unidad2', 'Unidad2Controller@index');
 Route::get('/unidad3', 'Unidad3Controller@index');

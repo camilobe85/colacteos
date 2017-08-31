@@ -7,7 +7,26 @@
    <div class="row">
       <div class="col-md-9" role="main">
          <div class="bs-docs-section">
+
+            
+
             <h1 class="page-header" id="overview">EL SECTOR SOLIDARIO Y SUS ORGANIZACIONES</h1>
+            
+            <div class="paginator">
+                <ul class="pager">
+                <li class="previous">
+                    <a>Anterior</a>
+                </li>
+                    <li >
+                        <h3 class="fillSpace">Title goes here</h3>
+                    </li>
+                <li class="next">
+                    <a>Siguiente</a>
+                </li>
+                </ul>
+            </div>
+            <!--3.-->
+            <section id="3." class="navSelected NavigationItem"  title="Sección 3">
             <p align="justify">Las organizaciones del sector solidario surgen por iniciativa de una comunidad que decide asociarse a trav&eacute;s de la cooperaci&oacute;n y la ayuda mutua, uniendo recursos humanos y econ&oacute;micos como herramientas para resolver los problemas y/o necesidades o desarrollar proyectos productivos comunes para el bienestar de ese colectivo.</p>
             <img src="assets/images/map.png" width="100%" alt="" style="padding:40px;">
             <p align="justify"><strong>ORGANIZACIONES SOLIDARIAS DE DESARROLLO:</strong> Son aquellas formas de asociatividad solidaria sin &aacute;nimo de lucro, que, empleando bienes y servicios privados o gubernamentales, construyen y prestan bienes y servicios para el beneficio social, dirigiendo su accionar principalmente hacia terceros, comunidades y la sociedad en general. La finalidad de su constituci&oacute;n es ejercer la solidaridad principalmente de adentro hacia afuera.</p>
@@ -18,8 +37,9 @@
             <p align="justify">&bull; Garantizar la igualdad de derechos y obligaciones de sus miembros sin consideraci&oacute;n a sus aportes.</p>
             <p align="justify">&bull; Establecer en sus estatutos un monto m&iacute;nimo de aportes sociales no reducibles durante su existencia y debidamente pagados.</p>
             <p align="justify">&bull; Integrarse social y econ&oacute;micamente, sin perjuicio de sus v&iacute;nculos, con otras entidades sin &aacute;nimo de lucro que tengan por fin promover el desarrollo integral del ser humano.</p>
+            </section>
             <!--3.1.-->
-            <section id="3.1."></section>
+            <section id="3.1." class="NavigationItem"  title="Sección 3.1.">
             <h2 class="subtUnidad">3.1. COOPERATIVAS</h2>
             <p align="justify">Características de las Cooperativas</p>
             <table class="table table-striped" cellspacing="0" cellpadding="7">
@@ -124,8 +144,9 @@
                 </tr>
                 </tbody>
             </table>
+            </section>
             <!--3.2.-->
-            <section id="3.2."></section>
+            <section id="3.2." class="NavigationItem"  title="Sección 3.2.">
             <h2 class="subtUnidad">3.2. CLASES DE COOPERATIVAS</h2>
             <h3>CLASES DE COOPERATIVAS SEGÚN EL ÁMBITO DE LA ACTIVIDAD ECONÓMICA</h3>
             <p><strong><span lang="es-ES">Especializadas</span></strong><span lang="es-ES"><strong>:</strong> son las que se organizan para atender una necesidad espec&iacute;fica, correspondiente a una sola rama de actividad econ&oacute;mica, social o cultural.</span> <span lang="es-ES">Estas organizaciones podr&aacute;n ofrecer servicios diferentes a los establecimientos en su objeto social, mediante la suscripci&oacute;n de convenios con otras entidades sin &aacute;nimo de lucro.</span></p>
@@ -160,7 +181,10 @@
             <li><strong>Junta de Vigilancia: </strong>Es el &oacute;rgano de control social que vigila a la organizaci&oacute;n por medio de procesos de investigaci&oacute;n y valoraci&oacute;n objetivos acordes a la normatividad cooperativa. Est&aacute; conformada por m&aacute;ximo tres (3) asociados h&aacute;biles con sus respectivos suplentes, por un periodo y condiciones establecidas a trav&eacute;s de los estatutos de la cooperativa. Se encarga de velar que los &oacute;rganos de administraci&oacute;n funcionen seg&uacute;n los estatutos de la cooperativa, cumpliendo los principios y valores de la Econom&iacute;a Solidaria.</li>
             <li><strong>Revisor Fiscal: </strong>Es el responsable del control contable y financiero de la organizaci&oacute;n. Cuenta con su respectivo suplente. El revisor fiscal y suplente, deber&aacute;n ser contadores p&uacute;blicos con matricula vigente.</li>
             </ol>
-            <section id="3.3."></section>
+            </section>
+
+            <!-- 3.3. -->
+            <section id="3.3." class="NavigationItem"  title="Sección 3.3.">
             <h2 class="subtUnidad">3.3. PRECOOPERATIVAS</h2>
             <p>Características de las Cooperativas</p>
             <table class="table table-striped" cellspacing="0" cellpadding="7">
@@ -256,6 +280,10 @@
             </tr>
             </tbody>
             </table>
+            </section>
+            <section class="NavigationItem" title="Final de unidad">
+            <h3 class="subt2Unidad">A finalizado la Unidad 3 con satisfacción, puede ir al desarrollo de sus <a href="actividades">Actividades</a>.</h3>
+            </section>
             <!-------------------------------------- -->
             
             </div>
@@ -282,6 +310,7 @@
 </div>
 @endsection
 @section('scripts')
+    <script src="{{ asset('assets/js/script.js') }}"></script>
     {{-- <script src="{{ elixir('js/app.js') }}"></script> --}}
     <script >
     $.fn.extend({

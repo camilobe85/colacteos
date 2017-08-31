@@ -19,32 +19,43 @@
   <div class="carousel-inner">
     <div class="item slides active">
       <div class="slide-1"></div>
+      <div class="hero"> 
+      <hgroup>
+            <h1>Economía Solidaria</h1>        
+            <h3>Curso virtual  introductorio</h3>
+        </hgroup>       
+        <a class="btn btn-default btn-lg" role="button" href="info">Más información</a> 
+        
+        
+      </div>
+    </div>
+    <div class="item slides ">
+      <div class="slide-2"></div>
       <div class="hero">
-        <hgroup>
+       
+        @if (Auth::guest())
+             <hgroup>
             <h1>Bienvenido</h1>        
             <h3>Registrate para empezar el proceso de aprendizaje</h3>
         </hgroup>
-        <button class="btn btn-hero btn-lg" role="button">Registrarse</button>
-      </div>
-    </div>
-    <div class="item slides">
-      <div class="slide-2"></div>
-      <div class="hero">        
-        <hgroup>
-            <h1>Economía Solidaria</h1>        
-            <h3>Conoce como aplicar y apoyar tus metas en tu trabajo</h3>
+        <a class="btn btn-default btn-lg" role="button" href="register">Registrarse</a>
+      @else
+          <hgroup>
+            <h1>Bienvenido</h1>        
+            <h3>Gracias por registrase</h3>
         </hgroup>       
-        <button class="btn btn-hero btn-lg" role="button">Conocer más</button>
+        <a class="btn btn-default btn-lg" role="button" href="home">Ir a unidades</a>
+      @endif 
       </div>
     </div>
     <div class="item slides">
       <div class="slide-3"></div>
       <div class="hero">        
         <hgroup>
-            <h1>Conócenos</h1>        
-            <h3>Conoce el perfil de quienes lideran este proyecto</h3>
+            <h1>CONOCENOS</h1>        
+            <h3>Conoce a las instituciones que lideran este curso</h3>
         </hgroup>
-        <button class="btn btn-hero btn-lg" role="button">Conocer más</button>
+        <a class="btn btn-default btn-lg" role="button" href="login">Más información</a>
       </div>
     </div>
   </div> 
@@ -140,5 +151,25 @@
 
 <br><br>
 </div>
--->s
+-->
+<div class="container">
+  <center> 
+    <div align="center" class="video embed-responsive embed-responsive-16by9" >
+    <video class="video embed-responsive-item" poster={{ asset('assets/images/poster.jpg') }}>
+        <source src={{ asset('assets/images/v1.mp4') }} type="video/mp4">
+    </video>
+</div>
+    <!--<h4 style="color: gray">
+    Curso desarrollado en alianza entre la 
+    <h3 style="color: #003767">Cooperativa de Productos Lácteos de Nariño Ltda.</h3> 
+    <h4 style="color: gray">y el</h4><h3 style="color: green"> Instituto de Economía Social y Cooperativismo de la 
+    <br>Universidad Cooperativa de Colombia - Sede Pasto</h3>
+    </h4>-->
+  </center>
+</div>
+@endsection
+@section('scripts')
+<script>
+$('video').click(function(){this.paused?this.play():this.pause();});
+</script>
 @endsection

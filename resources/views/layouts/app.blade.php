@@ -46,9 +46,7 @@
 
                 <!-- Branding Image -->
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    <table><tr><td><img src="assets/images/logoES.svg" style = "width:25px" alt="" /></td><td style="padding-left:20px;color:white;text-shadow: 2px 2px #000000;"><b>Economía Solidaria</b></td></tr></table>
-                    
-                    
+                    <table><tr><td><img src="assets/images/colacteos.svg" style = "width:50px" alt="" /></td><td style="padding-left:20px;color:white;text-shadow: 2px 2px #000000;"><b>Economía Solidaria</b></td></tr></table>
                 </a>
             </div>
 
@@ -116,9 +114,9 @@
             <br>
             <h6 class="heading7">LINKS</h6>
             <ul class="footer-ul">
-                <li><a href="#"> Ingresar</a></li>
-                <li><a href="#"> Registrar</a></li>
-                <li><a href="#"> Terminos & Condiciones</a></li>
+                <li><a href="login"> Ingresar</a></li>
+                <li><a href="register"> Registrar</a></li>
+                <li><a href="terms"> Terminos & Condiciones</a></li>
                 <li><a href="#"> Preguntas frecuentes</a></li>
             </ul>
         </div>
