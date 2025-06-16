@@ -100,7 +100,7 @@ Contenido de administrador
 				</select>
 			</div>
 		
-		<hidden id = "idTmpUser" name="idTmpUser" value=""/>
+                <input type="hidden" id="idTmpUser" name="idTmpUser" value=""/>
         
       </div>
       <div class="modal-footer">
@@ -138,8 +138,8 @@ $(document).ready(function() {
 });
 
 function addPerfil(id, name){
-	$('#idTmpUser').value = id;
-	$('#usuarioSel').append(name);
+        $('#idTmpUser').val(id);
+        $('#usuarioSel').text(name);
 
 }
     </script>
