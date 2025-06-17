@@ -67,7 +67,7 @@
 <div class="row">
 <div class="col-xs-12 col-md-12">
 <h3>Contenido del curso de Economía Solidaria</h3>
-<p>El curso en Formación Virtual en Economía Solidaria es un camino para replicar en nuestra vida diaria con grandes resultados de cambios personales y profesionales, a continuación hacemos referencia a el contido de cada unidad:</p>
+<p>El curso en Formación Virtual en Economía Solidaria es un camino para replicar en nuestra vida diaria con grandes resultados de cambios personales y profesionales, a continuación hacemos referencia a el contenido de cada unidad:</p>
 <br>
 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
   <div class="panel panel-default">
